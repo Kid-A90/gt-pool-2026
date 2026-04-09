@@ -9,7 +9,7 @@ export default function Header({ lastUpdated, isLive, onRefresh }) {
         <div className="logo-wrap">
           {/* REPLACED SVG WITH IMAGE TAG */}
           <img 
-            src="/Masters-logo.png"
+            src="/masters-logo.png"
             alt="Masters Logo" 
             className="logo-svg" 
             style={{ width: '45px', height: 'auto', marginRight: '4px' }} 
