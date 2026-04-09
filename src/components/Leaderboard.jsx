@@ -1,5 +1,8 @@
+import { useState, useMemo } from 'react';
 import BoardRow from './BoardRow.jsx';
 import { sortEntries } from '../utils/scoring.js';
+
+const PAGE = 100;
 
 function BoardHeader() {
   return (
@@ -29,15 +32,39 @@ function SectionDivider({ label, onClearSearch }) {
         {label}
       </span>
       {onClearSearch && (
-        <button
-          className="close-btn"
-          onClick={onClearSearch}
-          style={{ fontSize: 10, padding: '4px 10px' }}
-        >
+        <button className="close-btn" onClick={onClearSearch} style={{ fontSize: 10, padding: '4px 10px' }}>
           ✕ Show All
         </button>
       )}
     </div>
+  );
+}
+
+function ShowMoreBtn({ shown, total, onMore }) {
+  const remaining = total - shown;
+  if (remaining <= 0) return null;
+  return (
+    <div style={{ textAlign: 'center', padding: '16px 0' }}>
+      <button
+        className="chip"
+        style={{ fontSize: 13, padding: '8px 24px' }}
+        onClick={onMore}
+      >
+        Show {Math.min(remaining, PAGE)} more ({remaining} remaining)
+      </button>
+    </div>
+  );
+}
+
+function RowList({ rows, leaderTotal, sortMode, savedTeam, golferFilter, initialLimit }) {
+  const [limit, setLimit] = useState(initialLimit ?? PAGE);
+  const visible = rows.slice(0, limit);
+  const rowProps = e => ({ entry: e, leaderTotal, sortMode, savedTeam, golferFilter });
+  return (
+    <>
+      {visible.map(e => <BoardRow key={e.name + e.a + e.b + e.c + e.d} {...rowProps(e)} />)}
+      <ShowMoreBtn shown={limit} total={rows.length} onMore={() => setLimit(l => l + PAGE)} />
+    </>
   );
 }
 
@@ -48,42 +75,31 @@ export default function Leaderboard({ scoredEntries, savedTeam, teamSearch, golf
   const tQ = teamSearch.trim().toLowerCase();
   const isTeamSearch = tQ.length > 0;
 
-  const leaderTotal = scoredEntries
-    .filter(e => e.has && !e.voided)
-    .reduce((min, e) => (e.tot < min ? e.tot : min), Infinity);
-  const safeLeaderTotal = isFinite(leaderTotal) ? leaderTotal : 0;
+  const leaderTotal = useMemo(() => {
+    const min = scoredEntries
+      .filter(e => e.has && !e.voided)
+      .reduce((m, e) => (e.tot < m ? e.tot : m), Infinity);
+    return isFinite(min) ? min : 0;
+  }, [scoredEntries]);
 
   // Apply filters
   let visible = scoredEntries;
   if (tQ) visible = visible.filter(e => e.name.toLowerCase().includes(tQ));
   if (gfQ) visible = visible.filter(e => ['a', 'b', 'c', 'd'].some(s => e[s].toLowerCase().includes(gfQ)));
 
-  const rowProps = (e, i) => ({
-    entry: e,
-    leaderTotal: safeLeaderTotal,
-    sortMode,
-    savedTeam,
-    golferFilter,
-    animDelay: i * 0.016,
-  });
+  const sharedProps = { leaderTotal, sortMode, savedTeam, golferFilter };
 
   // ── Team search mode ──────────────────────────────────────────────
   if (isTeamSearch) {
     const matched = sortEntries(visible, sortMode);
     const leaders = sortEntries(
-      scoredEntries.filter(e => e.has && !e.voided),
-      'score'
+      scoredEntries.filter(e => e.has && !e.voided), 'score'
     ).slice(0, 10);
 
-    if (!matched.length) {
-      return (
-        <div className="empty"><p>No matching entries found.</p></div>
-      );
-    }
+    if (!matched.length) return <div className="empty"><p>No matching entries found.</p></div>;
 
     return (
       <div className="board">
-        {/* Search banner */}
         <div style={{
           background: 'var(--g)', padding: '9px 16px',
           display: 'flex', alignItems: 'center', justifyContent: 'space-between',
@@ -97,19 +113,16 @@ export default function Leaderboard({ scoredEntries, savedTeam, teamSearch, golf
           </button>
         </div>
         <BoardHeader />
-        {matched.map((e, i) => <BoardRow key={e.name} {...rowProps(e, i)} />)}
+        <RowList rows={matched} {...sharedProps} initialLimit={matched.length} />
         <SectionDivider label="Tournament Leaders — See How Far Back You Are" />
-        {leaders.map((e, i) => <BoardRow key={`ld-${e.name}`} {...rowProps(e, i)} />)}
+        <RowList rows={leaders} {...sharedProps} initialLimit={10} />
       </div>
     );
   }
 
-  // ── Default mode: pin saved team, then full field ─────────────────
+  // ── Default mode ──────────────────────────────────────────────────
   const sorted = sortEntries(visible, sortMode);
-
-  if (!sorted.length) {
-    return <div className="empty"><p>No matching entries found.</p></div>;
-  }
+  if (!sorted.length) return <div className="empty"><p>No matching entries found.</p></div>;
 
   if (savedTeam) {
     const mine = sorted.filter(e => e.name.toLowerCase() === savedTeam.toLowerCase());
@@ -132,23 +145,20 @@ export default function Leaderboard({ scoredEntries, savedTeam, teamSearch, golf
               </span>
             </div>
             <BoardHeader />
-            {mine.map((e, i) => <BoardRow key={e.name} {...rowProps(e, i)} />)}
+            <RowList rows={mine} {...sharedProps} initialLimit={mine.length} />
           </>
         )}
-        {mine.length > 0 && rest.length > 0 && (
-          <SectionDivider label="Full Leaderboard" />
-        )}
+        {mine.length > 0 && rest.length > 0 && <SectionDivider label="Full Leaderboard" />}
         {mine.length === 0 && <BoardHeader />}
-        {rest.map((e, i) => <BoardRow key={e.name} {...rowProps(e, i)} />)}
+        <RowList rows={rest} {...sharedProps} />
       </div>
     );
   }
 
-  // No saved team — plain sorted board
   return (
     <div className="board">
       <BoardHeader />
-      {sorted.map((e, i) => <BoardRow key={e.name} {...rowProps(e, i)} />)}
+      <RowList rows={sorted} {...sharedProps} />
     </div>
   );
 }

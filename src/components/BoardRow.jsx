@@ -1,7 +1,7 @@
 import GolferCell from './GolferCell.jsx';
 import { fmt } from '../utils/scoring.js';
 
-export default function BoardRow({ entry: e, leaderTotal, sortMode, savedTeam, golferFilter, animDelay }) {
+export default function BoardRow({ entry: e, leaderTotal, sortMode, savedTeam, golferFilter }) {
   const gfQ = golferFilter.toLowerCase();
   const isSaved = savedTeam && e.name.toLowerCase() === savedTeam.toLowerCase();
 
@@ -40,7 +40,7 @@ export default function BoardRow({ entry: e, leaderTotal, sortMode, savedTeam, g
   }
 
   return (
-    <div className={rowCls} style={{ animationDelay: `${animDelay}s` }}>
+    <div className={rowCls}>
       {/* Position */}
       <div
         className={`bc ${posCls}`}
