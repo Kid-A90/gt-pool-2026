@@ -61,14 +61,13 @@ export function buildScored(entries, scores, nmap = {}) {
 // Assign .rank to each entry (null for voided / no scores)
 export function assignRanks(arr) {
   const sorted = [...arr].filter(e => e.has && !e.voided).sort((a, b) => a.tot - b.tot);
-  const rankMap = {};
   let rk = 1;
+  // Mutate entry objects directly — avoids name-collision bug with duplicate team names
   sorted.forEach((e, i) => {
-    if (i > 0 && e.tot === sorted[i - 1].tot) rankMap[e.name] = rankMap[sorted[i - 1].name];
-    else rankMap[e.name] = rk;
+    e.rank = (i > 0 && e.tot === sorted[i - 1].tot) ? sorted[i - 1].rank : rk;
     rk = i + 2;
   });
-  arr.forEach(e => { e.rank = (!e.voided && e.has) ? (rankMap[e.name] ?? null) : null; });
+  arr.forEach(e => { if (e.voided || !e.has) e.rank = null; });
 }
 
 // Sort entries by score (voided always last) or alphabetically

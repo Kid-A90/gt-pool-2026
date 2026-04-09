@@ -13,9 +13,6 @@ export default function BoardRow({ entry: e, leaderTotal, sortMode, savedTeam, g
   const rowCls = [
     'brow fu',
     e.voided ? 'voided' : '',
-    !e.voided && sortMode === 'score'
-      ? (e.rank === 1 ? 'r1' : e.rank === 2 ? 'r2' : e.rank === 3 ? 'r3' : '')
-      : '',
     !e.voided && isSaved ? 'myt' : '',
   ].filter(Boolean).join(' ');
 
