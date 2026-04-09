@@ -52,33 +52,30 @@ export default async function handler(req, res) {
 
       const competitors = ev.competitions?.[0]?.competitors || [];
 
-      // Build a score→position map to detect ties
+      // Build score → { count, minOrder } for tie detection and correct position
       const scoreGroups = {};
       competitors.forEach(c => {
         const sv = typeof c.score === 'string' ? c.score : (c.score?.value ?? c.score?.displayValue ?? '0');
         const n = parseSc(sv);
-        if (!scoreGroups[n]) scoreGroups[n] = 0;
-        scoreGroups[n]++;
+        const ord = c.order ?? 999;
+        if (!scoreGroups[n]) scoreGroups[n] = { count: 0, minOrder: ord };
+        scoreGroups[n].count++;
+        if (ord < scoreGroups[n].minOrder) scoreGroups[n].minOrder = ord;
       });
 
       const scores = {};
-      competitors.forEach((c, i) => {
+      competitors.forEach(c => {
         const fn = c.athlete?.displayName || '';
         if (!fn) return;
-        // score is now a plain string in the new ESPN API
         const sv = typeof c.score === 'string' ? c.score : (c.score?.value ?? c.score?.displayValue ?? '0');
         const n = parseSc(sv);
 
-        // Derive position from order; prefix T if tied
-        const order = c.order ?? (i + 1);
-        const isTied = (scoreGroups[n] || 0) > 1;
-        const pos = isTied ? `T${order}` : `${order}`;
+        const grp = scoreGroups[n];
+        const pos = grp?.count > 1 ? `T${grp.minOrder}` : `${c.order ?? ''}`;
 
-        // Holes completed from round 1 linescores
         const r1holes = c.linescores?.[0]?.linescores?.length ?? 0;
         const thru = r1holes === 18 ? 'F' : r1holes > 0 ? `Thru ${r1holes}` : '';
 
-        // mc: eliminated flag or status indicating missed cut
         const mc = !!(c.status?.eliminated || c.status?.displayValue?.toLowerCase().includes('cut'));
 
         scores[fn] = { score: n, str: fsc(sv), pos, thru, mc };
