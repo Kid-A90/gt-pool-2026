@@ -4,9 +4,9 @@ import './styles/globals.css';
 import { useScores } from './hooks/useScores.js';
 import { useSavedTeam } from './hooks/useSavedTeam.js';
 import { buildScored, assignRanks, getG } from './utils/scoring.js';
+import poolEntries from './data/entries.json';
 
 import Header from './components/Header.jsx';
-import UploadZone from './components/UploadZone.jsx';
 import Controls from './components/Controls.jsx';
 import GolferFilterBar from './components/GolferFilterBar.jsx';
 import Leaderboard from './components/Leaderboard.jsx';
@@ -14,8 +14,8 @@ import ScorerGrid from './components/ScorerGrid.jsx';
 import SaveTeamModal from './components/SaveTeamModal.jsx';
 
 export default function App() {
-  const [entries, setEntries] = useState([]);
-  const [nmap, setNmap] = useState({});
+  const entries = poolEntries;
+  const nmap = {};
   const [teamSearch, setTeamSearch] = useState('');
   const [golferFilter, setGolferFilter] = useState('');
   const [sortMode, setSortMode] = useState('score');
@@ -25,20 +25,18 @@ export default function App() {
   const { scores, loading, error, lastUpdated, refresh } = useScores();
   const { savedTeam, saveTeam, clearTeam } = useSavedTeam();
 
-  const hasEntries = entries.length > 0;
-  const isLive = hasEntries && Object.keys(scores).length > 0 && !error;
+  const isLive = Object.keys(scores).length > 0 && !error;
 
   // Show a status bar message when scores update
   useMemo(() => {
-    if (!hasEntries) return;
     if (loading) { setStatus({ type: 'ok', msg: 'Fetching live scores…' }); return; }
     if (error) { setStatus({ type: 'warn', msg: '⚠ Refresh failed — showing last known scores.' }); return; }
     if (Object.keys(scores).length === 0) {
-      setStatus({ type: 'warn', msg: '⚠ Live scores unavailable — showing entries without scores. Scores appear when tournament is live.' });
+      setStatus({ type: 'warn', msg: '⚠ Live scores unavailable — scores appear when tournament is live.' });
       return;
     }
     setStatus({ type: 'ok', msg: `Live scores updated — ${Object.keys(scores).length} players. Auto-refreshes every 5 min.` });
-  }, [scores, loading, error, hasEntries]);
+  }, [scores, loading, error]);
 
   // Build and rank scored entries
   const scoredEntries = useMemo(() => {
@@ -57,13 +55,6 @@ export default function App() {
     if (gfQ) v = v.filter(e => ['a', 'b', 'c', 'd'].some(s => e[s].toLowerCase().includes(gfQ)));
     return v.length;
   }, [scoredEntries, tQ, gfQ]);
-
-  function handleLoad(newEntries, newNmap) {
-    setEntries(newEntries);
-    setNmap(newNmap);
-    setStatus({ type: 'ok', msg: `Loaded ${newEntries.length} entries. Fetching live scores…` });
-    refresh();
-  }
 
   function handleGolferClick(name) {
     if (golferFilter.toLowerCase() === name.toLowerCase()) {
@@ -97,51 +88,45 @@ export default function App() {
       />
 
       <main className="main">
-        <UploadZone onLoad={handleLoad} visible={!hasEntries} />
-
         {status && (
           <div className={`st${status.type === 'err' ? ' err' : status.type === 'warn' ? ' warn' : ''}`}>
             {status.msg}
           </div>
         )}
 
-        {hasEntries && (
-          <>
-            <Controls
-              teamSearch={teamSearch}
-              golferFilter={golferFilter}
-              sortMode={sortMode}
-              savedTeam={savedTeam}
-              entryCount={visibleCount}
-              totalCount={scoredEntries.length}
-              onTeamSearch={setTeamSearch}
-              onGolferFilter={setGolferFilter}
-              onSortChange={setSortMode}
-              onOpenSaveModal={() => setModalOpen(true)}
-            />
+        <Controls
+          teamSearch={teamSearch}
+          golferFilter={golferFilter}
+          sortMode={sortMode}
+          savedTeam={savedTeam}
+          entryCount={visibleCount}
+          totalCount={scoredEntries.length}
+          onTeamSearch={setTeamSearch}
+          onGolferFilter={setGolferFilter}
+          onSortChange={setSortMode}
+          onOpenSaveModal={() => setModalOpen(true)}
+        />
 
-            <GolferFilterBar
-              golferName={golferFilter}
-              onClear={() => setGolferFilter('')}
-            />
+        <GolferFilterBar
+          golferName={golferFilter}
+          onClear={() => setGolferFilter('')}
+        />
 
-            <Leaderboard
-              scoredEntries={scoredEntries}
-              savedTeam={savedTeam}
-              teamSearch={teamSearch}
-              golferFilter={golferFilter}
-              sortMode={sortMode}
-              onClearSearch={() => setTeamSearch('')}
-            />
+        <Leaderboard
+          scoredEntries={scoredEntries}
+          savedTeam={savedTeam}
+          teamSearch={teamSearch}
+          golferFilter={golferFilter}
+          sortMode={sortMode}
+          onClearSearch={() => setTeamSearch('')}
+        />
 
-            <ScorerGrid
-              entries={entries}
-              getG={resolveGolfer}
-              golferFilter={golferFilter}
-              onGolferClick={handleGolferClick}
-            />
-          </>
-        )}
+        <ScorerGrid
+          entries={entries}
+          getG={resolveGolfer}
+          golferFilter={golferFilter}
+          onGolferClick={handleGolferClick}
+        />
       </main>
 
       <footer className="foot">
