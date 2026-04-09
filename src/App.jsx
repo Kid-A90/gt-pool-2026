@@ -40,11 +40,10 @@ export default function App() {
 
   // Build and rank scored entries
   const scoredEntries = useMemo(() => {
-    if (!hasEntries) return [];
     const arr = buildScored(entries, scores, nmap);
     assignRanks(arr);
     return arr;
-  }, [entries, scores, nmap, hasEntries]);
+  }, [entries, scores]);
 
   // Visible count for controls display
   const gfQ = golferFilter.toLowerCase();
