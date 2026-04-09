@@ -1,0 +1,27 @@
+// Surname / shorthand → full ESPN display name
+export const NAMES = {
+  "Scheffler":"Scottie Scheffler","McIlroy":"Rory McIlroy","Mcilroy":"Rory McIlroy",
+  "Rahm":"Jon Rahm","Aberg":"Ludvig Aberg","DeChambeau":"Bryson DeChambeau",
+  "Dechambeau":"Bryson DeChambeau","Xander":"Xander Schauffele","Spieth":"Jordan Spieth",
+  "Rose":"Justin Rose","Morikawa":"Collin Morikawa","Matsuyama":"Hideki Matsuyama",
+  "Fitzpatrick":"Matt Fitzpatrick","Fleetwood":"Tommy Fleetwood","Hovland":"Viktor Hovland",
+  "Reed":"Patrick Reed","Koepka":"Brooks Koepka","Thomas":"Justin Thomas",
+  "Cantlay":"Patrick Cantlay","Henley":"Russell Henley","Kim":"Si Woo Kim",
+  "Si Woo Kim":"Si Woo Kim","MW Lee":"Min Woo Lee","Min Woo Lee":"Min Woo Lee",
+  "Scott":"Adam Scott","MacIntyre":"Robert MacIntyre","Gotterup":"Chris Gotterup",
+  "Young":"Cameron Young","Im":"Sungjae Im","Johnson":"Dustin Johnson","DJ":"Dustin Johnson",
+  "Conners":"Corey Conners","Knapp":"Jake Knapp","Day":"Jason Day","Hatton":"Tyrrell Hatton",
+  "Homa":"Max Homa","Burns":"Sam Burns","Lowry":"Shane Lowry","Straka":"Sepp Straka",
+  "Berger":"Daniel Berger","English":"Harris English","Bradley":"Keegan Bradley",
+  "Kitayama":"Kurt Kitayama","McNealy":"Maverick McNealy","Bridgeman":"Jacob Bridgeman",
+  "Spaun":"J.J. Spaun","Hojgaard":"Rasmus Hojgaard","N. Hojgaard":"Nicolai Hojgaard",
+  "Rai":"Aaron Rai","Bhatia":"Akshay Bhatia","Smith":"Cameron Smith","Noren":"Alex Noren",
+  "Woodland":"Gary Woodland","Harman":"Brian Harman","Clark":"Wyndham Clark","Riley":"Davis Riley",
+  "Fox":"Ryan Fox","Garcia":"Sergio Garcia","Willett":"Danny Willett","Schwartzel":"Charl Schwartzel",
+  "Watson":"Bubba Watson","Greyserman":"Max Greyserman","McCarty":"Matt McCarty",
+  "Taylor":"Nick Taylor","Echavarria":"Nico Echavarria","Stevens":"Sam Stevens",
+  "Campbell":"Brian Campbell","Potgieter":"Aldrich Potgieter","Couples":"Fred Couples",
+  "Singh":"Vijay Singh","McKibbin":"Tom McKibbin","Jarvis":"Casey Jarvis","Novak":"Andrew Novak",
+  "Niemann":"Joaquin Niemann","Hoge":"Tom Hoge","Theegala":"Sahith Theegala",
+  "McCarthy":"Denny McCarthy","Thompson":"Davis Thompson","Campos":"Rafael Campos","Schenk":"Adam Schenk"
+};
