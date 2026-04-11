@@ -76,7 +76,15 @@ export default async function handler(req, res) {
         const r1holes = c.linescores?.[0]?.linescores?.length ?? 0;
         const thru = r1holes === 18 ? 'F' : r1holes > 0 ? `Thru ${r1holes}` : '';
 
-        const mc = !!(c.status?.eliminated || c.status?.displayValue?.toLowerCase().includes('cut'));
+        const mc = !!(
+          c.status?.type?.name === 'eliminated' ||
+          c.status?.type?.id === '5' ||
+          c.status?.eliminated ||
+          c.status?.displayValue?.toUpperCase() === 'CUT' ||
+          c.status?.displayValue?.toUpperCase() === 'MC' ||
+          c.status?.displayValue?.toLowerCase().includes('cut') ||
+          c.status?.result?.toUpperCase() === 'MC'
+        );
 
         scores[fn] = { score: n, str: fsc(sv), pos, thru, mc };
       });

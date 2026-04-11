@@ -124,9 +124,13 @@ export default function Leaderboard({ scoredEntries, savedTeam, teamSearch, golf
   const sorted = sortEntries(visible, sortMode);
   if (!sorted.length) return <div className="empty"><p>No matching entries found.</p></div>;
 
+  const activeRows = sorted.filter(e => !e.voided);
+  const voidedRows = sorted.filter(e => e.voided);
+
   if (savedTeam) {
     const mine = sorted.filter(e => e.name.toLowerCase() === savedTeam.toLowerCase());
-    const rest = sorted.filter(e => e.name.toLowerCase() !== savedTeam.toLowerCase());
+    const restActive = activeRows.filter(e => e.name.toLowerCase() !== savedTeam.toLowerCase());
+    const restVoided = voidedRows.filter(e => e.name.toLowerCase() !== savedTeam.toLowerCase());
 
     return (
       <div className="board">
@@ -148,9 +152,13 @@ export default function Leaderboard({ scoredEntries, savedTeam, teamSearch, golf
             <RowList rows={mine} {...sharedProps} initialLimit={mine.length} />
           </>
         )}
-        {mine.length > 0 && rest.length > 0 && <SectionDivider label="Full Leaderboard" />}
+        {mine.length > 0 && (restActive.length > 0 || restVoided.length > 0) && <SectionDivider label="Full Leaderboard" />}
         {mine.length === 0 && <BoardHeader />}
-        <RowList rows={rest} {...sharedProps} />
+        <RowList rows={restActive} {...sharedProps} />
+        {restVoided.length > 0 && (
+          <SectionDivider label={`Missed Cut — Disqualified (${restVoided.length} ${restVoided.length === 1 ? 'team' : 'teams'})`} />
+        )}
+        {restVoided.length > 0 && <RowList rows={restVoided} {...sharedProps} />}
       </div>
     );
   }
@@ -158,7 +166,11 @@ export default function Leaderboard({ scoredEntries, savedTeam, teamSearch, golf
   return (
     <div className="board">
       <BoardHeader />
-      <RowList rows={sorted} {...sharedProps} />
+      <RowList rows={activeRows} {...sharedProps} />
+      {voidedRows.length > 0 && (
+        <SectionDivider label={`Missed Cut — Disqualified (${voidedRows.length} ${voidedRows.length === 1 ? 'team' : 'teams'})`} />
+      )}
+      {voidedRows.length > 0 && <RowList rows={voidedRows} {...sharedProps} />}
     </div>
   );
 }
