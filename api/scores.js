@@ -1,4 +1,4 @@
-// Vercel serverless function — proxies ESPN Masters leaderboard
+// Vercel serverless function — proxies ESPN PGA Championship leaderboard
 // Returns: { [espnDisplayName]: { score, str, pos, thru, mc } }
 
 const ESPN_URLS = [
@@ -36,7 +36,7 @@ export default async function handler(req, res) {
   for (const url of ESPN_URLS) {
     try {
       const r = await fetch(url, {
-        headers: { 'User-Agent': 'Mozilla/5.0 (compatible; MastersPool/1.0)' },
+        headers: { 'User-Agent': 'Mozilla/5.0 (compatible; PGAPool/1.0)' },
       });
       if (!r.ok) continue;
 
@@ -44,8 +44,8 @@ export default async function handler(req, res) {
       const ev =
         (d.events || []).find(
           e =>
-            (e.name || '').toLowerCase().includes('masters') ||
-            (e.shortName || '').toLowerCase().includes('masters')
+            (e.name || '').toLowerCase().includes('pga championship') ||
+            (e.shortName || '').toLowerCase().includes('pga championship')
         ) || (d.events || [])[0];
 
       if (!ev) continue;

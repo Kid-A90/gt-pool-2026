@@ -81,4 +81,41 @@ export const NAMES = {
   "Ortiz":               "Carlos Ortiz",
   "Penge":               "Marco Penge",
   "Neergard-Petersen":   "Rasmus Neergaard-Petersen",
+
+  // Group A
+  "Schauffele":          "Xander Schauffele",
+
+  // Group C additions
+  "Detry":               "Thomas Detry",
+  "Fowler":              "Rickie Fowler",
+  "Mitchell":            "Keith Mitchell",
+  "Niemann":             "Joaquín Niemann",
+  "Smalley":             "Alex Smalley",
+  "Theegala":            "Sahith Theegala",
+  "Thorbjornsen":        "Mikael Thorbjornsen",
+
+  // Group D additions
+  "Ayora":               "Santiago Ayora",
+  "Bezuidenhout":        "Christiaan Bezuidenhout",
+  "C Smith":             "Cameron Smith",
+  "Cauley":              "Bud Cauley",
+  "Cink":                "Stewart Cink",
+  "Coody":               "Ben Coody",
+  "Dufner":              "Jason Dufner",
+  "Glover":              "Lucas Glover",
+  "Grillo":              "Emiliano Grillo",
+  "Hisatsune":           "Keita Hisatsune",
+  "Horschel":            "Billy Horschel",
+  "J Smith":             "Jordan Smith",
+  "Jaeger":              "Stephan Jaeger",
+  "Kirk":                "Chris Kirk",
+  "McCarthy":            "Denny McCarthy",
+  "McGreevy":            "Matt McGreevy",
+  "Pendrith":            "Taylor Pendrith",
+  "Poston":              "J.T. Poston",
+  "Putnam":              "Andrew Putnam",
+  "Rodgers":             "Patrick Rodgers",
+  "Smotherman":          "Austin Smotherman",
+  "Vegas":               "Jhonattan Vegas",
+  "Wallace":             "Matt Wallace",
 };

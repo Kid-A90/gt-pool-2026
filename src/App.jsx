@@ -129,7 +129,7 @@ export default function App() {
       </main>
 
       <footer className="foot">
-        GT II Pool 2026 &nbsp;·&nbsp; Masters Tournament · Augusta National Golf Club &nbsp;·&nbsp; Live Scores via ESPN &nbsp;·&nbsp; Auto-refreshes every 5 minutes
+        GT II Pool 2026 &nbsp;·&nbsp; PGA Championship · Quail Hollow Club &nbsp;·&nbsp; Live Scores via ESPN &nbsp;·&nbsp; Auto-refreshes every 5 minutes
       </footer>
 
       <SaveTeamModal
