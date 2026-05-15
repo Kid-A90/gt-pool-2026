@@ -7,16 +7,13 @@ export default function Header({ lastUpdated, isLive, onRefresh }) {
     <header className="hdr">
       <div className="hdr-in">
         <div className="logo-wrap">
-          {/* REPLACED SVG WITH IMAGE TAG */}
           <img
             src="/pga-logo.png"
             alt="PGA Championship Logo"
             className="logo-svg"
-            style={{ width: '45px', height: 'auto', marginRight: '4px' }}
           />
-
           <div className="logo-copy">
-            <div className="logo-masters">PGA Championship</div>
+            <div className="logo-title">PGA Championship</div>
             <div className="logo-pool">GT II Pool 2026 &nbsp;·&nbsp; Live Leaderboard</div>
           </div>
         </div>

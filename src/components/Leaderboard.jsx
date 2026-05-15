@@ -24,8 +24,8 @@ function SectionDivider({ label, onClearSearch }) {
   return (
     <div style={{
       background: 'var(--g3)', padding: '8px 16px',
-      borderTop: '1px solid rgba(242,200,75,.2)',
-      borderBottom: '1px solid rgba(242,200,75,.2)',
+      borderTop: '1px solid rgba(201,168,76,.25)',
+      borderBottom: '1px solid rgba(201,168,76,.25)',
       display: 'flex', alignItems: 'center', justifyContent: 'space-between',
     }}>
       <span style={{ fontSize: 10, fontWeight: 600, letterSpacing: 2.5, textTransform: 'uppercase', color: 'rgba(255,255,255,.45)' }}>
@@ -113,9 +113,9 @@ export default function Leaderboard({ scoredEntries, savedTeam, teamSearch, golf
           </button>
         </div>
         <BoardHeader />
-        <RowList rows={matched} {...sharedProps} initialLimit={matched.length} />
+        <RowList key="search-matched" rows={matched} {...sharedProps} initialLimit={matched.length} />
         <SectionDivider label="Tournament Leaders — See How Far Back You Are" />
-        <RowList rows={leaders} {...sharedProps} initialLimit={10} />
+        <RowList key="search-leaders" rows={leaders} {...sharedProps} initialLimit={10} />
       </div>
     );
   }
@@ -149,16 +149,16 @@ export default function Leaderboard({ scoredEntries, savedTeam, teamSearch, golf
               </span>
             </div>
             <BoardHeader />
-            <RowList rows={mine} {...sharedProps} initialLimit={mine.length} />
+            <RowList key="saved-mine" rows={mine} {...sharedProps} initialLimit={mine.length} />
           </>
         )}
         {mine.length > 0 && (restActive.length > 0 || restVoided.length > 0) && <SectionDivider label="Full Leaderboard" />}
         {mine.length === 0 && <BoardHeader />}
-        <RowList rows={restActive} {...sharedProps} />
+        <RowList key="saved-active" rows={restActive} {...sharedProps} />
         {restVoided.length > 0 && (
           <SectionDivider label={`Missed Cut — Disqualified (${restVoided.length} ${restVoided.length === 1 ? 'team' : 'teams'})`} />
         )}
-        {restVoided.length > 0 && <RowList rows={restVoided} {...sharedProps} />}
+        {restVoided.length > 0 && <RowList key="saved-voided" rows={restVoided} {...sharedProps} />}
       </div>
     );
   }
@@ -166,11 +166,11 @@ export default function Leaderboard({ scoredEntries, savedTeam, teamSearch, golf
   return (
     <div className="board">
       <BoardHeader />
-      <RowList rows={activeRows} {...sharedProps} />
+      <RowList key="default-active" rows={activeRows} {...sharedProps} />
       {voidedRows.length > 0 && (
         <SectionDivider label={`Missed Cut — Disqualified (${voidedRows.length} ${voidedRows.length === 1 ? 'team' : 'teams'})`} />
       )}
-      {voidedRows.length > 0 && <RowList rows={voidedRows} {...sharedProps} />}
+      {voidedRows.length > 0 && <RowList key="default-voided" rows={voidedRows} {...sharedProps} />}
     </div>
   );
 }
