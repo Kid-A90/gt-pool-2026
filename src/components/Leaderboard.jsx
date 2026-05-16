@@ -92,11 +92,16 @@ export default function Leaderboard({ scoredEntries, savedTeam, teamSearch, golf
   // ── Team search mode ──────────────────────────────────────────────
   if (isTeamSearch) {
     const matched = sortEntries(visible, sortMode);
-    const leaders = sortEntries(
-      scoredEntries.filter(e => e.has && !e.voided), 'score'
-    ).slice(0, 10);
+    // Deduplicate: show only the best-ranked entry per team name
+    const seen = new Set();
+    const deduped = matched.filter(e => {
+      const k = e.name.toLowerCase();
+      if (seen.has(k)) return false;
+      seen.add(k);
+      return true;
+    });
 
-    if (!matched.length) return <div className="empty"><p>No matching entries found.</p></div>;
+    if (!deduped.length) return <div className="empty"><p>No matching entries found.</p></div>;
 
     return (
       <div className="board">
@@ -113,9 +118,7 @@ export default function Leaderboard({ scoredEntries, savedTeam, teamSearch, golf
           </button>
         </div>
         <BoardHeader />
-        <RowList key="search-matched" rows={matched} {...sharedProps} initialLimit={matched.length} />
-        <SectionDivider label="Tournament Leaders — See How Far Back You Are" />
-        <RowList key="search-leaders" rows={leaders} {...sharedProps} initialLimit={10} />
+        <RowList key="search-matched" rows={deduped} {...sharedProps} initialLimit={deduped.length} />
       </div>
     );
   }
@@ -129,13 +132,12 @@ export default function Leaderboard({ scoredEntries, savedTeam, teamSearch, golf
 
   if (savedTeam) {
     const mine = sorted.filter(e => e.name.toLowerCase() === savedTeam.toLowerCase());
-    const mineFirst = mine[0]; // show only the best-ranked entry in the pinned section
-    const restActive = activeRows.filter(e => e !== mineFirst);
-    const restVoided = voidedRows.filter(e => e !== mineFirst);
+    const restActive = activeRows.filter(e => e.name.toLowerCase() !== savedTeam.toLowerCase());
+    const restVoided = voidedRows.filter(e => e.name.toLowerCase() !== savedTeam.toLowerCase());
 
     return (
       <div className="board">
-        {mineFirst && (
+        {mine.length > 0 && (
           <>
             <div style={{
               background: 'var(--g)', padding: '9px 16px',
@@ -150,11 +152,11 @@ export default function Leaderboard({ scoredEntries, savedTeam, teamSearch, golf
               </span>
             </div>
             <BoardHeader />
-            <RowList key="saved-mine" rows={[mineFirst]} {...sharedProps} initialLimit={1} />
+            <RowList key="saved-mine" rows={mine} {...sharedProps} initialLimit={mine.length} />
           </>
         )}
-        {mineFirst && (restActive.length > 0 || restVoided.length > 0) && <SectionDivider label="Full Leaderboard" />}
-        {!mineFirst && <BoardHeader />}
+        {mine.length > 0 && (restActive.length > 0 || restVoided.length > 0) && <SectionDivider label="Full Leaderboard" />}
+        {mine.length === 0 && <BoardHeader />}
         <RowList key="saved-active" rows={restActive} {...sharedProps} />
         {restVoided.length > 0 && (
           <SectionDivider label={`Missed Cut — Disqualified (${restVoided.length} ${restVoided.length === 1 ? 'team' : 'teams'})`} />
