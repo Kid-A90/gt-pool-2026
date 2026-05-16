@@ -51,6 +51,11 @@ export default function BoardRow({ entry: e, leaderTotal, sortMode, savedTeam, g
         <span className="nm-txt">{e.name}</span>
         {!e.voided && isSaved && <span className="you-tag">You</span>}
         {e.voided && <span className="void-tag">MC Void</span>}
+        {e.has && !e.voided && (
+          <span className={`nm-score-mobile ${e.tot < 0 ? 'tu' : e.tot > 0 ? 'to' : 'te'}`}>
+            {totStr}
+          </span>
+        )}
       </div>
 
       {/* A B C D golfer cells */}

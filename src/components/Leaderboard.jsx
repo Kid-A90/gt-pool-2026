@@ -15,7 +15,7 @@ function BoardHeader() {
       <div className="bh">D GOLFER</div>
       <div className="bh bh-td">TODAY</div>
       <div className="bh bh-gap">GAP</div>
-      <div className="bh">TOTAL</div>
+      <div className="bh bh-tot">TOTAL</div>
     </div>
   );
 }
