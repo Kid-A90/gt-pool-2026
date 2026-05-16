@@ -52,6 +52,10 @@ export default function App() {
     let v = scoredEntries;
     if (tQ) v = v.filter(e => e.name.toLowerCase().includes(tQ));
     if (gfQ) v = v.filter(e => ['a', 'b', 'c', 'd'].some(s => e[s].toLowerCase().includes(gfQ)));
+    if (tQ) {
+      const seen = new Set();
+      v = v.filter(e => { const k = e.name.toLowerCase(); if (seen.has(k)) return false; seen.add(k); return true; });
+    }
     return v.length;
   }, [scoredEntries, tQ, gfQ]);
 

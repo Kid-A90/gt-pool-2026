@@ -191,7 +191,7 @@ body{background:var(--bg);color:var(--g);font-family:'Oswald',sans-serif;min-hei
 /* ══ RESPONSIVE ══════════════════════════════════════ */
 @media(max-width:1050px){
   .bhead,.brow{grid-template-columns:48px 1fr repeat(4,minmax(70px,1fr)) 64px 88px;}
-  .bh-gap,.bc-gap-col{display:none;}
+  .bh-gap,.bc-gap{display:none;}
 }
 @media(max-width:700px){
   .bhead,.brow{grid-template-columns:40px 1fr repeat(4,minmax(56px,1fr)) 82px;}
