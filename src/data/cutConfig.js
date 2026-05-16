@@ -10,8 +10,10 @@
 //      Or populate manually using the golfer shorthands from entries.json
 // ─────────────────────────────────────────────────────────────────────────────
 
-export const TOURNAMENT = '2026 PGA Championship – Quail Hollow';
-export const CUT_LINE   = 3; // +3 makes the cut; +4 and above are eliminated
+export const TOURNAMENT     = '2026 PGA Championship – Quail Hollow';
+export const CUT_LINE       = 3;                        // +3 makes it; +4+ are out
+export const TOURNAMENT_END = new Date('2026-05-19');   // After this date the manual
+                                                        // list is ignored — ESPN takes over
 
 // Golfer shorthands exactly as they appear in entries.json / the pool sheet.
 // Any team whose A/B/C/D slot matches one of these names is voided (MC).

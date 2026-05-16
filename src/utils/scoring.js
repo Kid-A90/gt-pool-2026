@@ -1,5 +1,5 @@
 import { NAMES } from './nameMap.js';
-import { MISSED_CUT } from '../data/cutConfig.js';
+import { MISSED_CUT, TOURNAMENT_END } from '../data/cutConfig.js';
 
 // Parse a score string ("E", "+3", "-2", "0") → integer
 export function parseSc(v) {
@@ -31,9 +31,14 @@ export function getG(sh, scores, nmap = {}) {
   return null;
 }
 
-// Returns true if a golfer shorthand is on the manual missed-cut list
+// Returns true if a golfer missed the cut.
+// During the configured tournament window: also checks the manual MISSED_CUT list
+// so teams are voided immediately without waiting for ESPN to update.
+// After TOURNAMENT_END: relies solely on ESPN — no manual update ever needed.
 function isMC(shorthand, espnData) {
-  return !!(espnData?.mc || MISSED_CUT.has((shorthand || '').trim()));
+  if (espnData?.mc) return true;
+  const manualActive = Date.now() < TOURNAMENT_END.getTime();
+  return manualActive && MISSED_CUT.has((shorthand || '').trim());
 }
 
 // Build scored entry objects from raw entries + live scores map
