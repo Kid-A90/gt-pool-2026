@@ -64,6 +64,7 @@ export default function App() {
       setGolferFilter('');
     } else {
       setGolferFilter(name);
+      setTeamSearch(''); // clicking a golfer clears team search
     }
   }
 

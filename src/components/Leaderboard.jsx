@@ -82,10 +82,13 @@ export default function Leaderboard({ scoredEntries, savedTeam, teamSearch, golf
     return isFinite(min) ? min : 0;
   }, [scoredEntries]);
 
-  // Apply filters
+  // Apply filters — team search takes full priority over golfer filter
   let visible = scoredEntries;
-  if (tQ) visible = visible.filter(e => e.name.toLowerCase().includes(tQ));
-  if (gfQ) visible = visible.filter(e => ['a', 'b', 'c', 'd'].some(s => e[s].toLowerCase().includes(gfQ)));
+  if (tQ) {
+    visible = visible.filter(e => e.name.toLowerCase().includes(tQ));
+  } else if (gfQ) {
+    visible = visible.filter(e => ['a', 'b', 'c', 'd'].some(s => e[s].toLowerCase().includes(gfQ)));
+  }
 
   const sharedProps = { leaderTotal, sortMode, savedTeam, golferFilter };
 
