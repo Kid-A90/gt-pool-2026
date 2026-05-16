@@ -195,10 +195,11 @@ body{background:var(--bg);color:var(--g);font-family:'Oswald',sans-serif;min-hei
   .bh-gap,.bc-gap{display:none;}
 }
 @media(max-width:700px){
-  .bhead,.brow{grid-template-columns:36px minmax(85px,2fr) repeat(4,minmax(46px,1fr)) 60px;}
+  .bhead,.brow{grid-template-columns:34px minmax(90px,2fr) repeat(4,minmax(44px,1fr)) 68px;}
   .bh-td,.bc-td,.bh-tot,.bc-tot{display:none;}
   .bh-gap,.bc-gap{display:flex;}
-  .nm-score-mobile{display:block;font-family:'Playfair Display',serif;font-size:15px;font-weight:900;line-height:1;width:100%;}
+  .gh-label{display:none;}
+  .nm-score-mobile{display:block;font-family:'Playfair Display',serif;font-size:20px;font-weight:900;line-height:1;width:100%;}
   .bc-nm{flex-direction:column;align-items:flex-start;gap:3px;}
   .scr-grid{grid-template-columns:1fr 1fr;}
   .ginput{width:160px;}

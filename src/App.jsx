@@ -96,7 +96,6 @@ export default function App() {
           <p className="hero-sub">PGA Championship · Quail Hollow Club · Live Pool Leaderboard</p>
           <nav className="hero-tabs">
             <span className="hero-tab active">Leaderboard</span>
-            <span className="hero-tab">By Golfer</span>
           </nav>
         </div>
       </section>
@@ -115,8 +114,8 @@ export default function App() {
           savedTeam={savedTeam}
           entryCount={visibleCount}
           totalCount={scoredEntries.length}
-          onTeamSearch={setTeamSearch}
-          onGolferFilter={setGolferFilter}
+          onTeamSearch={v => { setTeamSearch(v); if (v) setGolferFilter(''); }}
+          onGolferFilter={v => { setGolferFilter(v); if (v) setTeamSearch(''); }}
           onSortChange={setSortMode}
           onOpenSaveModal={() => setModalOpen(true)}
         />

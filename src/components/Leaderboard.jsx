@@ -9,10 +9,10 @@ function BoardHeader() {
     <div className="bhead">
       <div className="bh">POS</div>
       <div className="bh bh-nm">PLAYER</div>
-      <div className="bh">A GOLFER</div>
-      <div className="bh">B GOLFER</div>
-      <div className="bh">C GOLFER</div>
-      <div className="bh">D GOLFER</div>
+      <div className="bh">A<span className="gh-label"> GOLFER</span></div>
+      <div className="bh">B<span className="gh-label"> GOLFER</span></div>
+      <div className="bh">C<span className="gh-label"> GOLFER</span></div>
+      <div className="bh">D<span className="gh-label"> GOLFER</span></div>
       <div className="bh bh-td">TODAY</div>
       <div className="bh bh-gap">GAP</div>
       <div className="bh bh-tot">TOTAL</div>
