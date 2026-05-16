@@ -106,6 +106,11 @@ export default function Leaderboard({ scoredEntries, savedTeam, teamSearch, golf
 
     if (!deduped.length) return <div className="empty"><p>No matching entries found.</p></div>;
 
+    // Pin saved team to top of search results
+    const savedKey = savedTeam?.toLowerCase();
+    const savedRows = savedKey ? deduped.filter(e => e.name.toLowerCase() === savedKey) : [];
+    const otherRows = savedKey ? deduped.filter(e => e.name.toLowerCase() !== savedKey) : deduped;
+
     return (
       <div className="board">
         <div style={{
@@ -121,7 +126,8 @@ export default function Leaderboard({ scoredEntries, savedTeam, teamSearch, golf
           </button>
         </div>
         <BoardHeader />
-        <RowList key="search-matched" rows={deduped} {...sharedProps} initialLimit={deduped.length} />
+        {savedRows.length > 0 && <RowList key="search-saved" rows={savedRows} {...sharedProps} initialLimit={savedRows.length} />}
+        {otherRows.length > 0 && <RowList key="search-others" rows={otherRows} {...sharedProps} initialLimit={otherRows.length} />}
       </div>
     );
   }
