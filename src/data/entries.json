@@ -94,7 +94,7 @@
     "name": "4 Stooges",
     "a": "Scheffler",
     "b": "Henley",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Hisatsune"
   },
   {
@@ -115,7 +115,7 @@
     "name": "5 Horseman",
     "a": "Rahm",
     "b": "Thomas",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarty"
   },
   {
@@ -143,8 +143,8 @@
     "name": "8 Men Out",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
-    "d": "N Hojgaard"
+    "c": "N Hojgaard",
+    "d": "Hojgaard"
   },
   {
     "name": "8 Men Out",
@@ -157,7 +157,7 @@
     "name": "8 Men Out",
     "a": "Fitzpatrick",
     "b": "Day",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -178,7 +178,7 @@
     "name": "8 Men Out",
     "a": "Scheffler",
     "b": "Gotterup",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Harman"
   },
   {
@@ -227,7 +227,7 @@
     "name": "8 Men Out",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Harman"
   },
   {
@@ -255,7 +255,7 @@
     "name": "8 Men Out",
     "a": "Scheffler",
     "b": "Spieth",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarthy"
   },
   {
@@ -269,7 +269,7 @@
     "name": "8 Men Out",
     "a": "McIlroy",
     "b": "Griffin",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "M Kim"
   },
   {
@@ -283,7 +283,7 @@
     "name": "8 Men Out",
     "a": "Scheffler",
     "b": "Koepka",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Rai"
   },
   {
@@ -395,7 +395,7 @@
     "name": "Adrian Rattenbury",
     "a": "Scheffler",
     "b": "Hatton",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Li"
   },
   {
@@ -437,7 +437,7 @@
     "name": "ALABOO",
     "a": "Young",
     "b": "Thomas",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Harman"
   },
   {
@@ -458,7 +458,7 @@
     "name": "Albany",
     "a": "Scheffler",
     "b": "Cantlay",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -500,7 +500,7 @@
     "name": "Alex Treadway",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -648,7 +648,7 @@
     "a": "Scheffler",
     "b": "Morikawa",
     "c": "Bhatia",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Anthony Davis",
@@ -689,7 +689,7 @@
     "name": "Anthony Davis",
     "a": "McIlroy",
     "b": "Burns",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Dufner"
   },
   {
@@ -822,7 +822,7 @@
     "name": "Baldy",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarty"
   },
   {
@@ -857,7 +857,7 @@
     "name": "Banjo",
     "a": "Scheffler",
     "b": "Griffin",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -956,13 +956,13 @@
     "a": "Young",
     "b": "Fleetwood",
     "c": "Fowler",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "BBJ",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -976,7 +976,7 @@
     "name": "BBJ",
     "a": "Scheffler",
     "b": "Henley",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarty"
   },
   {
@@ -990,8 +990,8 @@
     "name": "BBJT",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
-    "d": "N Hojgaard"
+    "c": "N Hojgaard",
+    "d": "Hojgaard"
   },
   {
     "name": "BBJT",
@@ -1004,7 +1004,7 @@
     "name": "BBJT",
     "a": "Scheffler",
     "b": "Cantlay",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -1018,7 +1018,7 @@
     "name": "BBJT",
     "a": "Young",
     "b": "Reed",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Rodgers"
   },
   {
@@ -1109,7 +1109,7 @@
     "name": "BBJT",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Novak"
   },
   {
@@ -1158,7 +1158,7 @@
     "name": "Ben Johnston",
     "a": "Scheffler",
     "b": "Scott",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarthy"
   },
   {
@@ -1396,7 +1396,7 @@
     "name": "Bill Humpert",
     "a": "Fitzpatrick",
     "b": "Hatton",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Rai"
   },
   {
@@ -1417,7 +1417,7 @@
     "name": "Bill Schuler",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Vegas"
   },
   {
@@ -1438,7 +1438,7 @@
     "name": "Billy Ken",
     "a": "Scheffler",
     "b": "Thomas",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Harman"
   },
   {
@@ -1466,7 +1466,7 @@
     "name": "Billy Mo",
     "a": "Aberg",
     "b": "Henley",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Potgieter"
   },
   {
@@ -1494,7 +1494,7 @@
     "name": "Birdie & the beast",
     "a": "Dechambeau",
     "b": "Thomas",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Schaper"
   },
   {
@@ -1760,7 +1760,7 @@
     "name": "BJ",
     "a": "McIlroy",
     "b": "Spaun",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Potgieter"
   },
   {
@@ -1865,7 +1865,7 @@
     "name": "BLR",
     "a": "Scheffler",
     "b": "Morikawa",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -1879,7 +1879,7 @@
     "name": "BM",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -1963,7 +1963,7 @@
     "name": "Bob Fawcett",
     "a": "Young",
     "b": "Burns",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -1984,7 +1984,7 @@
     "name": "Bob Vickrey",
     "a": "Young",
     "b": "Reed",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -2138,7 +2138,7 @@
     "name": "Bozer",
     "a": "Aberg",
     "b": "Scott",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -2264,7 +2264,7 @@
     "name": "bradford jw",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarty"
   },
   {
@@ -2320,7 +2320,7 @@
     "name": "Branden Baldhoff",
     "a": "Young",
     "b": "Scott",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Homa"
   },
   {
@@ -2384,7 +2384,7 @@
     "a": "Scheffler",
     "b": "Morikawa",
     "c": "Clark",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Breeders Cup",
@@ -2530,7 +2530,7 @@
     "name": "Brian Davis",
     "a": "McIlroy",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -2775,7 +2775,7 @@
     "name": "Brockwood",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -2866,7 +2866,7 @@
     "name": "Buddy",
     "a": "Scheffler",
     "b": "Thomas",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarty"
   },
   {
@@ -2971,8 +2971,8 @@
     "name": "Burger Crew",
     "a": "Aberg",
     "b": "Hovland",
-    "c": "Hojgaard",
-    "d": "N Hojgaard"
+    "c": "N Hojgaard",
+    "d": "Hojgaard"
   },
   {
     "name": "Burger Crew",
@@ -2999,8 +2999,8 @@
     "name": "Burke Boys",
     "a": "Scheffler",
     "b": "Rose",
-    "c": "Hojgaard",
-    "d": "N Hojgaard"
+    "c": "N Hojgaard",
+    "d": "Hojgaard"
   },
   {
     "name": "Burke Boys",
@@ -3041,7 +3041,7 @@
     "name": "Burr Travis",
     "a": "Scheffler",
     "b": "Koepka",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Rai"
   },
   {
@@ -3056,7 +3056,7 @@
     "a": "Scheffler",
     "b": "Spaun",
     "c": "Fowler",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Burr Travis",
@@ -3104,7 +3104,7 @@
     "name": "Cam Walton",
     "a": "McIlroy",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -3202,7 +3202,7 @@
     "name": "Carter Group",
     "a": "Scheffler",
     "b": "Hovland",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Hisatsune"
   },
   {
@@ -3223,7 +3223,7 @@
     "name": "Carter Group",
     "a": "Young",
     "b": "Matsuyama",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -3356,7 +3356,7 @@
     "name": "Charlie Jim",
     "a": "Scheffler",
     "b": "Burns",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Putnam"
   },
   {
@@ -3377,7 +3377,7 @@
     "name": "Charlie S",
     "a": "Scheffler",
     "b": "Thomas",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Rai"
   },
   {
@@ -3412,7 +3412,7 @@
     "name": "Charlie S",
     "a": "Fitzpatrick",
     "b": "Burns",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Li"
   },
   {
@@ -3447,7 +3447,7 @@
     "name": "Chibob",
     "a": "McIlroy",
     "b": "Reed",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Bezuidenhout"
   },
   {
@@ -3475,7 +3475,7 @@
     "name": "Chibob",
     "a": "Young",
     "b": "Hatton",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarty"
   },
   {
@@ -3630,7 +3630,7 @@
     "a": "McIlroy",
     "b": "Fleetwood",
     "c": "Fowler",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Chris Clifton",
@@ -3685,14 +3685,14 @@
     "name": "Chris Heller",
     "a": "Young",
     "b": "Hatton",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Hillier"
   },
   {
     "name": "Chris Hensley",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarty"
   },
   {
@@ -3713,7 +3713,7 @@
     "name": "Chris Hensley",
     "a": "Young",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarty"
   },
   {
@@ -3762,14 +3762,14 @@
     "name": "Chris Moeves",
     "a": "Aberg",
     "b": "Reed",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Bezuidenhout"
   },
   {
     "name": "Chris Nordloh",
     "a": "Rahm",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -3783,7 +3783,7 @@
     "name": "Chris Shaffer",
     "a": "Xander",
     "b": "Cantlay",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Li"
   },
   {
@@ -3797,7 +3797,7 @@
     "name": "Chris Shaffer",
     "a": "Young",
     "b": "Cantlay",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Rodgers"
   },
   {
@@ -3832,7 +3832,7 @@
     "name": "Chris Shaffer",
     "a": "Scheffler",
     "b": "Burns",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Rodgers"
   },
   {
@@ -3853,14 +3853,14 @@
     "name": "Chris Shaffer",
     "a": "Scheffler",
     "b": "Hatton",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Li"
   },
   {
     "name": "Chris Shaffer",
     "a": "Young",
     "b": "Henley",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Li"
   },
   {
@@ -3916,7 +3916,7 @@
     "name": "Chris Tibbs For Birdie",
     "a": "McIlroy",
     "b": "MW Lee",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "M Kim"
   },
   {
@@ -3931,7 +3931,7 @@
     "a": "Scheffler",
     "b": "Gotterup",
     "c": "Fowler",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Chris Tibbs For Birdie",
@@ -4028,7 +4028,7 @@
     "name": "Chuck Trott",
     "a": "Young",
     "b": "Burns",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -4043,7 +4043,7 @@
     "a": "Scheffler",
     "b": "Rose",
     "c": "Bradley",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Cindy Henley",
@@ -4098,7 +4098,7 @@
     "name": "Cindy Rains",
     "a": "Aberg",
     "b": "Reed",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Bezuidenhout"
   },
   {
@@ -4175,7 +4175,7 @@
     "name": "CLW",
     "a": "Scheffler",
     "b": "Rose",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Homa"
   },
   {
@@ -4224,7 +4224,7 @@
     "name": "Cobra",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Harman"
   },
   {
@@ -4315,7 +4315,7 @@
     "name": "Corey Grace",
     "a": "Fitzpatrick",
     "b": "Cantlay",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Harman"
   },
   {
@@ -4357,21 +4357,21 @@
     "name": "Corp Truck",
     "a": "McIlroy",
     "b": "Rose",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
     "name": "Cory Franklin",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
     "name": "Cory Krentz",
     "a": "Young",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarthy"
   },
   {
@@ -4539,7 +4539,7 @@
     "name": "Dan Fox",
     "a": "Scheffler",
     "b": "Rose",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Harman"
   },
   {
@@ -4595,7 +4595,7 @@
     "name": "Dan Riordan",
     "a": "McIlroy",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -4679,14 +4679,14 @@
     "name": "Dano",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
     "name": "Dano",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Harman"
   },
   {
@@ -4714,7 +4714,7 @@
     "name": "Dano",
     "a": "McIlroy",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Coody"
   },
   {
@@ -4722,7 +4722,7 @@
     "a": "McIlroy",
     "b": "Morikawa",
     "c": "Fowler",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Dano",
@@ -4736,7 +4736,7 @@
     "a": "Xander",
     "b": "Hovland",
     "c": "Bradley",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Dano",
@@ -4785,7 +4785,7 @@
     "a": "Scheffler",
     "b": "MW Lee",
     "c": "Theegala",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Daryl Williamson",
@@ -4799,7 +4799,7 @@
     "a": "Xander",
     "b": "Scott",
     "c": "Bradley",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Dave Barnes",
@@ -4854,7 +4854,7 @@
     "name": "Dave Fischer",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -4883,13 +4883,13 @@
     "a": "Scheffler",
     "b": "SW Kim",
     "c": "Kitayama",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Dave Karas",
     "a": "Scheffler",
     "b": "SW Kim",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Homa"
   },
   {
@@ -5134,7 +5134,7 @@
     "name": "Day Drinking",
     "a": "Young",
     "b": "Scott",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Homa"
   },
   {
@@ -5225,7 +5225,7 @@
     "name": "DDD",
     "a": "Scheffler",
     "b": "Gotterup",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Greyserman"
   },
   {
@@ -5282,7 +5282,7 @@
     "a": "Dechambeau",
     "b": "Fleetwood",
     "c": "Straka",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Deb Ryan",
@@ -5323,7 +5323,7 @@
     "name": "Denny Bleh",
     "a": "Scheffler",
     "b": "Koepka",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Horschel"
   },
   {
@@ -5365,7 +5365,7 @@
     "name": "Denny McGrath",
     "a": "Young",
     "b": "Thomas",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -5533,7 +5533,7 @@
     "name": "DFTM",
     "a": "Fitzpatrick",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Rai"
   },
   {
@@ -5568,7 +5568,7 @@
     "name": "DFTM",
     "a": "Scheffler",
     "b": "Morikawa",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -5764,7 +5764,7 @@
     "name": "DK Golf",
     "a": "Young",
     "b": "Cantlay",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -5890,7 +5890,7 @@
     "name": "Doug Smith",
     "a": "McIlroy",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Putnam"
   },
   {
@@ -5940,7 +5940,7 @@
     "a": "Scheffler",
     "b": "MacIntyre",
     "c": "Theegala",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Dr Agalagala",
@@ -5967,21 +5967,21 @@
     "name": "Dr Agalagala",
     "a": "Scheffler",
     "b": "Morikawa",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
     "name": "Dr Agalagala",
     "a": "Scheffler",
     "b": "Morikawa",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
     "name": "Dr Agalagala",
     "a": "Scheffler",
     "b": "Morikawa",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarty"
   },
   {
@@ -6030,21 +6030,21 @@
     "name": "Dr Agalagala",
     "a": "Scheffler",
     "b": "Henley",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
     "name": "Dr Agalagala",
     "a": "Scheffler",
     "b": "Henley",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
     "name": "Dr Agalagala",
     "a": "Scheffler",
     "b": "Henley",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarty"
   },
   {
@@ -6247,7 +6247,7 @@
     "name": "Duke Hoffer",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -6268,7 +6268,7 @@
     "name": "Dumbasses",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -6296,7 +6296,7 @@
     "name": "Dumbasses",
     "a": "Scheffler",
     "b": "Hatton",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Li"
   },
   {
@@ -6304,7 +6304,7 @@
     "a": "Scheffler",
     "b": "Thomas",
     "c": "Fowler",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Dumbasses",
@@ -6324,7 +6324,7 @@
     "name": "Dumbasses",
     "a": "McIlroy",
     "b": "Day",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -6332,7 +6332,7 @@
     "a": "McIlroy",
     "b": "Spaun",
     "c": "Fowler",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Dumbasses",
@@ -6346,7 +6346,7 @@
     "a": "Dechambeau",
     "b": "Matsuyama",
     "c": "Fowler",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Dumbasses",
@@ -6380,7 +6380,7 @@
     "name": "Dumbasses",
     "a": "Fitzpatrick",
     "b": "Burns",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -6408,7 +6408,7 @@
     "name": "Dumbasses",
     "a": "Xander",
     "b": "Morikawa",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Greyserman"
   },
   {
@@ -6437,7 +6437,7 @@
     "a": "Scheffler",
     "b": "Fleetwood",
     "c": "Niemann",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Eiben",
@@ -6555,7 +6555,7 @@
     "name": "Elliott Brazell",
     "a": "Aberg",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "M Kim"
   },
   {
@@ -6569,7 +6569,7 @@
     "name": "Elmo",
     "a": "McIlroy",
     "b": "Spaun",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Harman"
   },
   {
@@ -6597,7 +6597,7 @@
     "name": "Eric Kinman",
     "a": "Scheffler",
     "b": "Thomas",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -6618,7 +6618,7 @@
     "name": "Eric Sammons",
     "a": "Aberg",
     "b": "Gotterup",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -6695,7 +6695,7 @@
     "name": "Erik McAfee",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarty"
   },
   {
@@ -6752,7 +6752,7 @@
     "a": "Scheffler",
     "b": "Hovland",
     "c": "Conners",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "EZ Duz it",
@@ -6814,7 +6814,7 @@
     "name": "EZ Living",
     "a": "McIlroy",
     "b": "Rose",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -6828,14 +6828,14 @@
     "name": "EZ Living",
     "a": "Young",
     "b": "Thomas",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
     "name": "Fischtank",
     "a": "Scheffler",
     "b": "Hatton",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -6857,7 +6857,7 @@
     "a": "McIlroy",
     "b": "Morikawa",
     "c": "Bhatia",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Flan",
@@ -6919,7 +6919,7 @@
     "name": "Florida NP",
     "a": "Aberg",
     "b": "MacIntyre",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarthy"
   },
   {
@@ -7060,13 +7060,13 @@
     "a": "Young",
     "b": "Fleetwood",
     "c": "Bhatia",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Frey's Crew",
     "a": "McIlroy",
     "b": "Henley",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -7178,7 +7178,7 @@
     "name": "Gary Diehl",
     "a": "Young",
     "b": "Day",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Homa"
   },
   {
@@ -7395,7 +7395,7 @@
     "name": "GibTom",
     "a": "Young",
     "b": "Gotterup",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Li"
   },
   {
@@ -7444,7 +7444,7 @@
     "name": "Glenn Turner",
     "a": "Scheffler",
     "b": "SW Kim",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -7633,14 +7633,14 @@
     "name": "Goetta Man",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarty"
   },
   {
     "name": "Goetta Man",
     "a": "McIlroy",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -7724,7 +7724,7 @@
     "name": "Good N Hard",
     "a": "Scheffler",
     "b": "Morikawa",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Coody"
   },
   {
@@ -7794,7 +7794,7 @@
     "name": "Gooses Garage",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -7843,7 +7843,7 @@
     "name": "Grasscutters",
     "a": "McIlroy",
     "b": "Thomas",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Cauley"
   },
   {
@@ -7857,7 +7857,7 @@
     "name": "Grasscutters",
     "a": "Fitzpatrick",
     "b": "Reed",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "M Kim"
   },
   {
@@ -7878,7 +7878,7 @@
     "name": "Grasscutters",
     "a": "McIlroy",
     "b": "Gotterup",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "C Smith"
   },
   {
@@ -7892,7 +7892,7 @@
     "name": "Grasscutters",
     "a": "McIlroy",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Harman"
   },
   {
@@ -7955,7 +7955,7 @@
     "name": "Greg Capannari",
     "a": "Young",
     "b": "Thomas",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Harman"
   },
   {
@@ -7983,7 +7983,7 @@
     "name": "Greg Hagmo Fullenkamp",
     "a": "Scheffler",
     "b": "Rose",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Li"
   },
   {
@@ -8067,7 +8067,7 @@
     "name": "Greg Tenhundfeld",
     "a": "McIlroy",
     "b": "Morikawa",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Homa"
   },
   {
@@ -8116,7 +8116,7 @@
     "name": "H & Doc",
     "a": "McIlroy",
     "b": "Lowry",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarty"
   },
   {
@@ -8305,7 +8305,7 @@
     "name": "Hap",
     "a": "Xander",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Schmid"
   },
   {
@@ -8424,7 +8424,7 @@
     "name": "Harper",
     "a": "McIlroy",
     "b": "Scott",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Potgieter"
   },
   {
@@ -8439,14 +8439,14 @@
     "a": "Young",
     "b": "Fleetwood",
     "c": "Noren",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Harry & Gus",
     "a": "Young",
     "b": "Fleetwood",
     "c": "Fowler",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Harry & Gus",
@@ -8487,7 +8487,7 @@
     "name": "Hayden Burns",
     "a": "Scheffler",
     "b": "Spaun",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarty"
   },
   {
@@ -8550,7 +8550,7 @@
     "name": "HOF",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -8656,7 +8656,7 @@
     "a": "Rahm",
     "b": "Gotterup",
     "c": "Hall",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Iceman",
@@ -8697,7 +8697,7 @@
     "name": "Iceman",
     "a": "Scheffler",
     "b": "Koepka",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Rai"
   },
   {
@@ -8760,7 +8760,7 @@
     "name": "Indy girl",
     "a": "Scheffler",
     "b": "Thomas",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -8935,14 +8935,14 @@
     "name": "Jackie Sawyers",
     "a": "Fitzpatrick",
     "b": "Gotterup",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
     "name": "Jackie Sawyers",
     "a": "McIlroy",
     "b": "McNealy",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarty"
   },
   {
@@ -8963,7 +8963,7 @@
     "name": "Jackie Sheridan",
     "a": "McIlroy",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -9096,8 +9096,8 @@
     "name": "Jarrod Tiemeier",
     "a": "McIlroy",
     "b": "Fleetwood",
-    "c": "Hojgaard",
-    "d": "N Hojgaard"
+    "c": "N Hojgaard",
+    "d": "Hojgaard"
   },
   {
     "name": "Jason Collins",
@@ -9146,7 +9146,7 @@
     "a": "Scheffler",
     "b": "Reed",
     "c": "Conners",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "JC & CU",
@@ -9208,7 +9208,7 @@
     "name": "Jeff Biedenharn",
     "a": "Aberg",
     "b": "Thomas",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Harman"
   },
   {
@@ -9243,7 +9243,7 @@
     "name": "Jeff Estenfelder",
     "a": "Scheffler",
     "b": "Morikawa",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Homa"
   },
   {
@@ -9488,7 +9488,7 @@
     "name": "Jett Smith",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -9496,7 +9496,7 @@
     "a": "Young",
     "b": "Fleetwood",
     "c": "Fowler",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Jim Armour",
@@ -9635,7 +9635,7 @@
     "name": "Jim Vetter",
     "a": "Young",
     "b": "Cantlay",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Harman"
   },
   {
@@ -9656,7 +9656,7 @@
     "name": "Jim Windsor",
     "a": "McIlroy",
     "b": "Spaun",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -9670,7 +9670,7 @@
     "name": "Jimmy Rains",
     "a": "Scheffler",
     "b": "Burns",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -9761,14 +9761,14 @@
     "name": "JKRRS",
     "a": "Dechambeau",
     "b": "Morikawa",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
     "name": "JKRRS",
     "a": "Scheffler",
     "b": "Koepka",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -9782,7 +9782,7 @@
     "name": "JKRRS",
     "a": "McIlroy",
     "b": "Rose",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -9845,7 +9845,7 @@
     "name": "Joe Bunnell",
     "a": "Young",
     "b": "Lowry",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -9873,7 +9873,7 @@
     "name": "Joe Michels",
     "a": "Young",
     "b": "Morikawa",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Homa"
   },
   {
@@ -9985,7 +9985,7 @@
     "name": "Joey Miller",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -10111,7 +10111,7 @@
     "name": "John Michels",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -10139,21 +10139,21 @@
     "name": "John Mileham",
     "a": "Fitzpatrick",
     "b": "Cantlay",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
     "name": "John Mileham",
     "a": "Scheffler",
     "b": "Cantlay",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
     "name": "John Mileham",
     "a": "Young",
     "b": "Cantlay",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Echavarria"
   },
   {
@@ -10216,7 +10216,7 @@
     "name": "John Snyder",
     "a": "Scheffler",
     "b": "Hatton",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Li"
   },
   {
@@ -10328,7 +10328,7 @@
     "name": "Johnny McDaniel",
     "a": "Young",
     "b": "Morikawa",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -10419,7 +10419,7 @@
     "name": "Josh Wheeler",
     "a": "Xander",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "C Smith"
   },
   {
@@ -10510,7 +10510,7 @@
     "name": "JP",
     "a": "Scheffler",
     "b": "Rose",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -10552,7 +10552,7 @@
     "name": "Justin Goldstein",
     "a": "Aberg",
     "b": "Rose",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Homa"
   },
   {
@@ -10650,8 +10650,8 @@
     "name": "K Shields",
     "a": "Young",
     "b": "Cantlay",
-    "c": "Hojgaard",
-    "d": "N Hojgaard"
+    "c": "N Hojgaard",
+    "d": "Hojgaard"
   },
   {
     "name": "K9P",
@@ -10685,7 +10685,7 @@
     "name": "Karen L",
     "a": "Young",
     "b": "Rose",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -10881,35 +10881,35 @@
     "name": "Kenny Powers",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
     "name": "Kenny Powers",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarty"
   },
   {
     "name": "Kenny Powers",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
     "name": "Kenny Powers",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Brennan"
   },
   {
     "name": "Kenny Powers",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Cink"
   },
   {
@@ -10951,49 +10951,49 @@
     "name": "Kenny Powers",
     "a": "Dechambeau",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
     "name": "Kenny Powers",
     "a": "Dechambeau",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarty"
   },
   {
     "name": "Kenny Powers",
     "a": "Dechambeau",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
     "name": "Kenny Powers",
     "a": "Dechambeau",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Brennan"
   },
   {
     "name": "Kenny Powers",
     "a": "Dechambeau",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Cink"
   },
   {
     "name": "Kerck Hove",
     "a": "Young",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
     "name": "Kerry Chapman",
     "a": "Scheffler",
     "b": "Rose",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -11182,7 +11182,7 @@
     "name": "KL1125",
     "a": "Young",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -11218,7 +11218,7 @@
     "a": "Scheffler",
     "b": "Fleetwood",
     "c": "Woodland",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Knux & Ed",
@@ -11252,7 +11252,7 @@
     "name": "KSD",
     "a": "Aberg",
     "b": "Gotterup",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Putnam"
   },
   {
@@ -11267,7 +11267,7 @@
     "a": "Fitzpatrick",
     "b": "MacIntyre",
     "c": "Bradley",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Kurt Jones",
@@ -11399,7 +11399,7 @@
     "name": "Kyle Sambor",
     "a": "McIlroy",
     "b": "SW Kim",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Castillo"
   },
   {
@@ -11525,7 +11525,7 @@
     "name": "Labrador Logistics",
     "a": "McIlroy",
     "b": "Thomas",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "C Smith"
   },
   {
@@ -11616,7 +11616,7 @@
     "name": "Lanny Mallory",
     "a": "Scheffler",
     "b": "Rose",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -11644,7 +11644,7 @@
     "name": "Laura Huenefeld",
     "a": "Young",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Homa"
   },
   {
@@ -11658,7 +11658,7 @@
     "name": "Leighton Schrand",
     "a": "Scheffler",
     "b": "Henley",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarty"
   },
   {
@@ -11693,14 +11693,14 @@
     "name": "LETT",
     "a": "Rahm",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
     "name": "LETT",
     "a": "Young",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarty"
   },
   {
@@ -11756,7 +11756,7 @@
     "name": "Lila Jane",
     "a": "Scheffler",
     "b": "Matsuyama",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -11770,7 +11770,7 @@
     "name": "Lincoln Rd",
     "a": "McIlroy",
     "b": "Spaun",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Poston"
   },
   {
@@ -11819,7 +11819,7 @@
     "name": "Lisa Lincoln",
     "a": "Scheffler",
     "b": "Spaun",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -11840,7 +11840,7 @@
     "name": "Lisan Al Gaib",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Bezuidenhout"
   },
   {
@@ -11861,7 +11861,7 @@
     "name": "Lisan Al Gaib",
     "a": "Scheffler",
     "b": "Cantlay",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarty"
   },
   {
@@ -12043,7 +12043,7 @@
     "name": "Louie was my boy",
     "a": "Scheffler",
     "b": "Rose",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -12057,7 +12057,7 @@
     "name": "Louise Baldhoff",
     "a": "Scheffler",
     "b": "Koepka",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarty"
   },
   {
@@ -12142,7 +12142,7 @@
     "a": "Dechambeau",
     "b": "Morikawa",
     "c": "Bradley",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "MAB",
@@ -12169,7 +12169,7 @@
     "name": "MAB",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Li"
   },
   {
@@ -12232,7 +12232,7 @@
     "name": "Mab Men",
     "a": "Scheffler",
     "b": "Spieth",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -12274,7 +12274,7 @@
     "name": "Magoohoo",
     "a": "Scheffler",
     "b": "Spaun",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -12421,7 +12421,7 @@
     "name": "Marc Burgess",
     "a": "McIlroy",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -12443,7 +12443,7 @@
     "a": "Aberg",
     "b": "Gotterup",
     "c": "Fowler",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Mark B",
@@ -12477,7 +12477,7 @@
     "name": "Mark Bonavita",
     "a": "Young",
     "b": "Hatton",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -12499,14 +12499,14 @@
     "a": "Scheffler",
     "b": "Rose",
     "c": "Fowler",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Mark Finn",
     "a": "Scheffler",
     "b": "Rose",
     "c": "Fowler",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Mark Froehle",
@@ -12533,7 +12533,7 @@
     "name": "Mark Goetz",
     "a": "Young",
     "b": "Hatton",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -12603,14 +12603,14 @@
     "name": "Mark Jennings",
     "a": "McIlroy",
     "b": "Spaun",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Smotherman"
   },
   {
     "name": "Mark Kennedy jr",
     "a": "McIlroy",
     "b": "Rose",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Rai"
   },
   {
@@ -12638,7 +12638,7 @@
     "name": "Mark Krieg",
     "a": "Scheffler",
     "b": "SW Kim",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Li"
   },
   {
@@ -12659,7 +12659,7 @@
     "name": "Mark Meyer",
     "a": "Scheffler",
     "b": "Koepka",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -12736,7 +12736,7 @@
     "name": "Marty Sciamanna",
     "a": "Young",
     "b": "Cantlay",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -12996,21 +12996,21 @@
     "a": "Scheffler",
     "b": "Koepka",
     "c": "Woodland",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Matthew Beck",
     "a": "Scheffler",
     "b": "Fleetwood",
     "c": "Woodland",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Matthew Beck",
     "a": "Scheffler",
     "b": "Burns",
     "c": "Woodland",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Matthew Beck",
@@ -13114,7 +13114,7 @@
     "name": "Mental Midget",
     "a": "Scheffler",
     "b": "MacIntyre",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarthy"
   },
   {
@@ -13156,7 +13156,7 @@
     "name": "Michael Howell",
     "a": "McIlroy",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -13254,7 +13254,7 @@
     "name": "Mike & Dave",
     "a": "Young",
     "b": "Koepka",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Harman"
   },
   {
@@ -13611,7 +13611,7 @@
     "name": "Mike Zurborg",
     "a": "Xander",
     "b": "Koepka",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Putnam"
   },
   {
@@ -13632,7 +13632,7 @@
     "name": "Mithelb",
     "a": "Scheffler",
     "b": "Koepka",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Homa"
   },
   {
@@ -13647,7 +13647,7 @@
     "a": "Young",
     "b": "Rose",
     "c": "Straka",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Mithelb",
@@ -13674,14 +13674,14 @@
     "name": "Mo Money",
     "a": "Scheffler",
     "b": "Hatton",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Pendrith"
   },
   {
     "name": "Mo Money",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -13787,21 +13787,21 @@
     "a": "Xander",
     "b": "Hovland",
     "c": "Straka",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Myth Reindeer",
     "a": "Xander",
     "b": "Fleetwood",
     "c": "Conners",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Myth Reindeer",
     "a": "Aberg",
     "b": "Fleetwood",
     "c": "Conners",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "N Dorning",
@@ -13871,7 +13871,7 @@
     "a": "McIlroy",
     "b": "Fleetwood",
     "c": "Conners",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Natural Addict",
@@ -13927,7 +13927,7 @@
     "a": "Fitzpatrick",
     "b": "Matsuyama",
     "c": "Im",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Natural Addict",
@@ -13968,7 +13968,7 @@
     "name": "Nick Gehrlich",
     "a": "Aberg",
     "b": "SW Kim",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Li"
   },
   {
@@ -14045,7 +14045,7 @@
     "name": "Nick Pemper",
     "a": "Xander",
     "b": "Cantlay",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Horschel"
   },
   {
@@ -14122,7 +14122,7 @@
     "name": "Nickabear",
     "a": "McIlroy",
     "b": "Koepka",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Li"
   },
   {
@@ -14297,7 +14297,7 @@
     "name": "Pat Fox",
     "a": "Scheffler",
     "b": "Griffin",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -14332,7 +14332,7 @@
     "name": "Pat Jasper",
     "a": "Young",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -14500,7 +14500,7 @@
     "name": "Pee Wee",
     "a": "Scheffler",
     "b": "Rose",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Rai"
   },
   {
@@ -14522,7 +14522,7 @@
     "a": "Young",
     "b": "Scott",
     "c": "Clark",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Pee Wee",
@@ -14549,7 +14549,7 @@
     "name": "Pete E",
     "a": "Scheffler",
     "b": "Morikawa",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarty"
   },
   {
@@ -14584,7 +14584,7 @@
     "name": "Phil Amrein",
     "a": "Young",
     "b": "Lowry",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -14654,7 +14654,7 @@
     "name": "Phil's Goatee",
     "a": "Fitzpatrick",
     "b": "Morikawa",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarthy"
   },
   {
@@ -14731,7 +14731,7 @@
     "name": "PPG",
     "a": "McIlroy",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -14752,7 +14752,7 @@
     "name": "PPG",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Homa"
   },
   {
@@ -14836,7 +14836,7 @@
     "name": "PPG",
     "a": "Aberg",
     "b": "Henley",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -14857,7 +14857,7 @@
     "name": "ProG1",
     "a": "Young",
     "b": "Gotterup",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -14872,7 +14872,7 @@
     "a": "McIlroy",
     "b": "Rose",
     "c": "Woodland",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Rachel Musson",
@@ -14906,7 +14906,7 @@
     "name": "Ragin Cajun",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Homa"
   },
   {
@@ -14962,8 +14962,8 @@
     "name": "RAK Smartasses",
     "a": "Young",
     "b": "Rose",
-    "c": "Hojgaard",
-    "d": "N Hojgaard"
+    "c": "N Hojgaard",
+    "d": "Hojgaard"
   },
   {
     "name": "RAK Smartasses",
@@ -15025,7 +15025,7 @@
     "name": "Rebecca Wesdorp",
     "a": "Scheffler",
     "b": "Gotterup",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Homa"
   },
   {
@@ -15144,7 +15144,7 @@
     "name": "Ricky Bobby",
     "a": "Dechambeau",
     "b": "Koepka",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -15235,7 +15235,7 @@
     "name": "Rob Radcliffe",
     "a": "Scheffler",
     "b": "Gotterup",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Rai"
   },
   {
@@ -15410,7 +15410,7 @@
     "name": "Rock Bottom",
     "a": "Young",
     "b": "Rose",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "J Smith"
   },
   {
@@ -15431,7 +15431,7 @@
     "name": "Rock Bottom",
     "a": "Scheffler",
     "b": "Thomas",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarty"
   },
   {
@@ -15509,7 +15509,7 @@
     "a": "Scheffler",
     "b": "SW Kim",
     "c": "Kitayama",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Rollerdog81",
@@ -15543,7 +15543,7 @@
     "name": "Ron Darper",
     "a": "Scheffler",
     "b": "Gotterup",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -15564,8 +15564,8 @@
     "name": "Ron L",
     "a": "Aberg",
     "b": "Fleetwood",
-    "c": "Hojgaard",
-    "d": "N Hojgaard"
+    "c": "N Hojgaard",
+    "d": "Hojgaard"
   },
   {
     "name": "Ron L",
@@ -15627,7 +15627,7 @@
     "name": "Rooster",
     "a": "Scheffler",
     "b": "Hovland",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "C Smith"
   },
   {
@@ -15676,7 +15676,7 @@
     "name": "Ryan Bricking",
     "a": "McIlroy",
     "b": "Thomas",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -15739,7 +15739,7 @@
     "name": "Ryne Smith",
     "a": "Young",
     "b": "Thomas",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Harman"
   },
   {
@@ -15830,7 +15830,7 @@
     "name": "Sarah Parker",
     "a": "Rahm",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -15908,7 +15908,7 @@
     "a": "Young",
     "b": "Fleetwood",
     "c": "Niemann",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Scott D",
@@ -15998,7 +15998,7 @@
     "name": "Scott Robinson",
     "a": "Young",
     "b": "Thomas",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Block"
   },
   {
@@ -16222,14 +16222,14 @@
     "name": "Seth Shankle",
     "a": "McIlroy",
     "b": "Morikawa",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
     "name": "Shane Raber",
     "a": "Scheffler",
     "b": "Gotterup",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarty"
   },
   {
@@ -16327,14 +16327,14 @@
     "name": "Sinclair",
     "a": "McIlroy",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Harman"
   },
   {
     "name": "Sinclair",
     "a": "Scheffler",
     "b": "Thomas",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -16411,14 +16411,14 @@
     "name": "Soldier",
     "a": "Young",
     "b": "Rose",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Harman"
   },
   {
     "name": "Soldier",
     "a": "McIlroy",
     "b": "Henley",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -16439,7 +16439,7 @@
     "name": "SPB",
     "a": "McIlroy",
     "b": "Koepka",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Pendrith"
   },
   {
@@ -16629,7 +16629,7 @@
     "a": "Young",
     "b": "Gotterup",
     "c": "Mitchell",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Steve Rains",
@@ -16859,7 +16859,7 @@
     "name": "Sticklady",
     "a": "Scheffler",
     "b": "Rose",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Glover"
   },
   {
@@ -17084,7 +17084,7 @@
     "a": "Scheffler",
     "b": "Thomas",
     "c": "Stevens",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Sticky Pickle",
@@ -17245,7 +17245,7 @@
     "a": "Scheffler",
     "b": "Gotterup",
     "c": "Woodland",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Stifler",
@@ -17328,7 +17328,7 @@
     "name": "T Irwin",
     "a": "Aberg",
     "b": "Hovland",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Smotherman"
   },
   {
@@ -17559,7 +17559,7 @@
     "name": "Team Spivey",
     "a": "Scheffler",
     "b": "Henley",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McCarthy"
   },
   {
@@ -17608,7 +17608,7 @@
     "name": "Terris Allen",
     "a": "Dechambeau",
     "b": "Cantlay",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Harman"
   },
   {
@@ -17748,7 +17748,7 @@
     "name": "The Little Kings",
     "a": "Young",
     "b": "Hatton",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -17769,14 +17769,14 @@
     "name": "The Saint",
     "a": "Rahm",
     "b": "Spaun",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
     "name": "Theresa Burke",
     "a": "Scheffler",
     "b": "Morikawa",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -17951,14 +17951,14 @@
     "name": "Tina Vogelpohl",
     "a": "McIlroy",
     "b": "Spaun",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
     "name": "Tina Ziegler",
     "a": "Young",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Rai"
   },
   {
@@ -18056,7 +18056,7 @@
     "name": "Todd Lincoln",
     "a": "Scheffler",
     "b": "McNealy",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "McGreevy"
   },
   {
@@ -18077,7 +18077,7 @@
     "name": "Todd Lubbe",
     "a": "McIlroy",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Hisatsune"
   },
   {
@@ -18085,13 +18085,13 @@
     "a": "McIlroy",
     "b": "Hatton",
     "c": "Fowler",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Todd Lubbe",
     "a": "Fitzpatrick",
     "b": "Cantlay",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Rai"
   },
   {
@@ -18113,7 +18113,7 @@
     "a": "Young",
     "b": "Cantlay",
     "c": "English",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Todd Ryan",
@@ -18196,7 +18196,7 @@
     "name": "Tom Lay",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -18266,8 +18266,8 @@
     "name": "Tom Rieger",
     "a": "Xander",
     "b": "Lowry",
-    "c": "Hojgaard",
-    "d": "N Hojgaard"
+    "c": "N Hojgaard",
+    "d": "Hojgaard"
   },
   {
     "name": "Tom Ryan",
@@ -18350,7 +18350,7 @@
     "name": "Tommy Boy",
     "a": "Fitzpatrick",
     "b": "Morikawa",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -18491,7 +18491,7 @@
     "a": "Scheffler",
     "b": "Fleetwood",
     "c": "Bhatia",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Trish Haemmerle",
@@ -18525,7 +18525,7 @@
     "name": "Troy n Ty",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -18574,7 +18574,7 @@
     "name": "Troy n Ty",
     "a": "McIlroy",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -18588,7 +18588,7 @@
     "name": "Troy n Ty",
     "a": "Rahm",
     "b": "Morikawa",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -18603,7 +18603,7 @@
     "a": "Young",
     "b": "Fleetwood",
     "c": "Bhatia",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Turtle",
@@ -18616,7 +18616,7 @@
     "name": "Turtle",
     "a": "Xander",
     "b": "Griffin",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Pendrith"
   },
   {
@@ -18708,7 +18708,7 @@
     "a": "Scheffler",
     "b": "Rose",
     "c": "Kitayama",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Tyler Potter",
@@ -18728,7 +18728,7 @@
     "name": "Tyler Potter",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -18742,7 +18742,7 @@
     "name": "Venice Dude",
     "a": "Fitzpatrick",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Harman"
   },
   {
@@ -18791,7 +18791,7 @@
     "name": "Victory Try",
     "a": "Fitzpatrick",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -18805,7 +18805,7 @@
     "name": "Vikki Pflum",
     "a": "Young",
     "b": "Hatton",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Rai"
   },
   {
@@ -18819,7 +18819,7 @@
     "name": "Walt Heekin",
     "a": "Young",
     "b": "MW Lee",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -18882,7 +18882,7 @@
     "name": "Weasel",
     "a": "Scheffler",
     "b": "Fleetwood",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Fitzpatrick"
   },
   {
@@ -18925,7 +18925,7 @@
     "a": "Scheffler",
     "b": "Cantlay",
     "c": "Woodland",
-    "d": "N Hojgaard"
+    "d": "Hojgaard"
   },
   {
     "name": "Wolf Ticket",
@@ -19001,7 +19001,7 @@
     "name": "Zach A",
     "a": "Scheffler",
     "b": "Reed",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Reitan"
   },
   {
@@ -19106,7 +19106,7 @@
     "name": "Zing Zang",
     "a": "McIlroy",
     "b": "Rose",
-    "c": "Hojgaard",
+    "c": "N Hojgaard",
     "d": "Rai"
   },
   {
