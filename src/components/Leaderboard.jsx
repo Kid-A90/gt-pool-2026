@@ -141,8 +141,8 @@ export default function Leaderboard({ scoredEntries, savedTeam, teamSearch, golf
 
   if (savedTeam) {
     const mine = sorted.filter(e => e.name.toLowerCase() === savedTeam.toLowerCase());
-    const restActive = activeRows.filter(e => e.name.toLowerCase() !== savedTeam.toLowerCase());
-    const restVoided = voidedRows.filter(e => e.name.toLowerCase() !== savedTeam.toLowerCase());
+    const restActive = activeRows;
+    const restVoided = voidedRows;
 
     return (
       <div className="board">
