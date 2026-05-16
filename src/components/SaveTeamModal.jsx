@@ -17,7 +17,16 @@ export default function SaveTeamModal({ entries, savedTeam, onSave, onClear, onC
     setInputVal(val);
     const q = val.trim().toLowerCase();
     if (!q || !entries.length) { setMatches([]); return; }
-    setMatches(entries.filter(e => e.name.toLowerCase().includes(q)).slice(0, 7));
+    const seen = new Set();
+    const unique = [];
+    for (const e of entries) {
+      const k = e.name.toLowerCase();
+      if (!k.includes(q) || seen.has(k)) continue;
+      seen.add(k);
+      unique.push(e);
+      if (unique.length === 10) break;
+    }
+    setMatches(unique);
   }
 
   function pickTeam(name) {
