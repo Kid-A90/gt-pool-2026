@@ -1,4 +1,5 @@
 import { NAMES } from './nameMap.js';
+import { MISSED_CUT } from '../data/cutConfig.js';
 
 // Parse a score string ("E", "+3", "-2", "0") → integer
 export function parseSc(v) {
@@ -30,6 +31,11 @@ export function getG(sh, scores, nmap = {}) {
   return null;
 }
 
+// Returns true if a golfer shorthand is on the manual missed-cut list
+function isMC(shorthand, espnData) {
+  return !!(espnData?.mc || MISSED_CUT.has((shorthand || '').trim()));
+}
+
 // Build scored entry objects from raw entries + live scores map
 // entries: [{ name, a, b, c, d }]
 // scores:  { [espnDisplayName]: { score, str, pos, thru, mc } }
@@ -40,19 +46,21 @@ export function buildScored(entries, scores, nmap = {}) {
     const cg = getG(e.c, scores, nmap);
     const dg = getG(e.d, scores, nmap);
 
-    const as = ag?.mc ? 0 : (ag?.score ?? null);
-    const bs = bg?.mc ? 0 : (bg?.score ?? null);
-    const cs = cg?.mc ? 0 : (cg?.score ?? null);
-    const ds = dg?.mc ? 0 : (dg?.score ?? null);
+    const aMC = isMC(e.a, ag);
+    const bMC = isMC(e.b, bg);
+    const cMC = isMC(e.c, cg);
+    const dMC = isMC(e.d, dg);
+
+    const as = aMC ? 0 : (ag?.score ?? null);
+    const bs = bMC ? 0 : (bg?.score ?? null);
+    const cs = cMC ? 0 : (cg?.score ?? null);
+    const ds = dMC ? 0 : (dg?.score ?? null);
 
     const has = [as, bs, cs, ds].some(s => s !== null);
     const tot = [as, bs, cs, ds].reduce((s, v) => s + (v ?? 0), 0);
 
-    const anyMC = has && [
-      { d: ag, s: as }, { d: bg, s: bs }, { d: cg, s: cs }, { d: dg, s: ds }
-    ].some(x => x.d?.mc === true);
-
-    const mcFlags = { a: ag?.mc || false, b: bg?.mc || false, c: cg?.mc || false, d: dg?.mc || false };
+    const anyMC = aMC || bMC || cMC || dMC;
+    const mcFlags = { a: aMC, b: bMC, c: cMC, d: dMC };
 
     return { ...e, as, bs, cs, ds, tot, has, ag, bg, cg, dg, voided: anyMC, mcFlags };
   });
