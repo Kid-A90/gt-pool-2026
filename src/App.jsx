@@ -91,16 +91,6 @@ export default function App() {
         onRefresh={refresh}
       />
 
-      <section className="hero">
-        <div className="hero-in">
-          <h1 className="hero-title">GT II Pool 2026</h1>
-          <p className="hero-sub">PGA Championship · Quail Hollow Club · Live Pool Leaderboard</p>
-          <nav className="hero-tabs">
-            <span className="hero-tab active">Leaderboard</span>
-          </nav>
-        </div>
-      </section>
-
       <main className="main">
         {status && (
           <div className={`st${status.type === 'err' ? ' err' : status.type === 'warn' ? ' warn' : ''}`}>
