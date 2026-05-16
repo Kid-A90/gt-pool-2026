@@ -42,7 +42,7 @@ body{background:var(--bg);color:var(--g);font-family:'Oswald',sans-serif;min-hei
 .hero-tab.active{color:var(--g);border-bottom-color:var(--y);}
 
 /* ══ MAIN ════════════════════════════════════════════ */
-.main{max-width:1320px;margin:0 auto;padding:24px 24px 80px;}
+.main{max-width:1320px;margin:0 auto;padding:40px 24px 80px;}
 
 /* ══ UPLOAD ══════════════════════════════════════════ */
 .upz{background:var(--g);border:2px dashed rgba(255,255,255,.25);border-radius:6px;padding:54px 32px;text-align:center;cursor:pointer;transition:border-color .2s,background .2s;margin-bottom:22px;}
