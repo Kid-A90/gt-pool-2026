@@ -129,12 +129,13 @@ export default function Leaderboard({ scoredEntries, savedTeam, teamSearch, golf
 
   if (savedTeam) {
     const mine = sorted.filter(e => e.name.toLowerCase() === savedTeam.toLowerCase());
-    const restActive = activeRows.filter(e => e.name.toLowerCase() !== savedTeam.toLowerCase());
-    const restVoided = voidedRows.filter(e => e.name.toLowerCase() !== savedTeam.toLowerCase());
+    const mineFirst = mine[0]; // show only the best-ranked entry in the pinned section
+    const restActive = activeRows.filter(e => e !== mineFirst);
+    const restVoided = voidedRows.filter(e => e !== mineFirst);
 
     return (
       <div className="board">
-        {mine.length > 0 && (
+        {mineFirst && (
           <>
             <div style={{
               background: 'var(--g)', padding: '9px 16px',
@@ -149,11 +150,11 @@ export default function Leaderboard({ scoredEntries, savedTeam, teamSearch, golf
               </span>
             </div>
             <BoardHeader />
-            <RowList key="saved-mine" rows={mine} {...sharedProps} initialLimit={mine.length} />
+            <RowList key="saved-mine" rows={[mineFirst]} {...sharedProps} initialLimit={1} />
           </>
         )}
-        {mine.length > 0 && (restActive.length > 0 || restVoided.length > 0) && <SectionDivider label="Full Leaderboard" />}
-        {mine.length === 0 && <BoardHeader />}
+        {mineFirst && (restActive.length > 0 || restVoided.length > 0) && <SectionDivider label="Full Leaderboard" />}
+        {!mineFirst && <BoardHeader />}
         <RowList key="saved-active" rows={restActive} {...sharedProps} />
         {restVoided.length > 0 && (
           <SectionDivider label={`Missed Cut — Disqualified (${restVoided.length} ${restVoided.length === 1 ? 'team' : 'teams'})`} />
