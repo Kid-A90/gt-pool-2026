@@ -1,40 +1,31 @@
-// ── CUT CONFIGURATION ─────────────────────────────────────────────────────────
-// Update this file at the cut of each major tournament.
+// ── PGA CHAMPIONSHIP 2026 – MANUAL CUT OVERRIDE ───────────────────────────────
+// This list is only active until TOURNAMENT_END. After that date it is
+// automatically ignored and ESPN's mc flag is the sole source of truth.
 //
-// HOW TO UPDATE FOR A NEW MAJOR:
-//   1. Replace TOURNAMENT with the event name/year
-//   2. Set CUT_LINE to the score that *makes* the cut
-//      (e.g. 3 means +3 survives, +4 is out)
-//   3. Clear MISSED_CUT and repopulate from the cut sheet Excel:
-//        node scripts/buildCutList.js <path-to-xlsx> <cut-score>
-//      Or populate manually using the golfer shorthands from entries.json
+// For the US Open (and every future major) you are starting a fresh project,
+// so this file is irrelevant there. ESPN auto-detects missed cuts — no manual
+// update needed in any future pool.
 // ─────────────────────────────────────────────────────────────────────────────
 
-export const TOURNAMENT     = '2026 PGA Championship – Quail Hollow';
-export const CUT_LINE       = 3;                        // +3 makes it; +4+ are out
-export const TOURNAMENT_END = new Date('2026-05-19');   // After this date the manual
-                                                        // list is ignored — ESPN takes over
+export const TOURNAMENT_END = new Date('2026-05-19'); // list auto-expires after PGA ends
 
-// Golfer shorthands exactly as they appear in entries.json / the pool sheet.
-// Any team whose A/B/C/D slot matches one of these names is voided (MC).
+// Cut line: +4 makes it, +5 and above missed the cut (46 golfers)
 export const MISSED_CUT = new Set([
   // Group A
   'DeChambeau',
 
   // Group B
-  'Scott', 'Spaun', 'MacIntyre', 'Henley', 'Lowry',
+  'Scott', 'Spaun', 'MacIntyre', 'Henley',
   'Fleetwood', 'Hatton', 'Hovland',
 
   // Group C
-  'Bhatia', 'Noren', 'Berger', 'Woodland', 'Hall', 'Bridgeman',
-  'Knapp', 'Bradley', 'Penge', 'Thorbjornsen', 'Hojgaard',
-  'Straka', 'Im', 'Detry', 'Clark',
+  'Bhatia', 'Woodland', 'Hall', 'Bridgeman', 'Knapp', 'Bradley',
+  'Penge', 'Thorbjornsen', 'Straka', 'Im', 'Detry', 'Clark',
 
   // Group D
-  'Schenk', 'Ayora', 'Smotherman', 'Horschel', 'Campbell',
-  'Bezuidenhout', 'Riley', 'Grillo', 'Higgo', 'Holt', 'Dufner',
-  'Schaper', 'Highsmith', 'Keefer', 'Parry', 'Vegas', 'J Smith',
+  'Schenk', 'Ayora', 'Smotherman', 'Horschel', 'Riley', 'Grillo',
+  'Higgo', 'Holt', 'Dufner', 'Schaper', 'Highsmith', 'J Smith',
   'Poston', 'Glover', 'McCarty', 'Homa', 'McGreevy', 'Block',
-  'Brennan', 'Echavarria', 'Rodgers', 'Coody', 'Castillo', 'Fisk',
-  'Cink', 'Pendrith', 'McKibbin', 'Smyth',
+  'Echavarria', 'Rodgers', 'Coody', 'Castillo', 'Fisk', 'Cink',
+  'McKibbin', 'Smyth',
 ]);
